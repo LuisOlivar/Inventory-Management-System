@@ -1,0 +1,10 @@
+- Acá colocaré información que me puede ser util en el futuro.
+
+-- Diferencia entre .fetchone() y .fetchall()
+fetchone() devuelve la primera fila del resultado como una tupla. Si no hay más filas disponibles, devuelve None.
+Útil cuando solo necesitas un resultado, como buscar un usuario por su ID.
+
+fetchall() devuelve una lista de tuplas, donde cada tupla representa una fila de la consulta.
+Útil cuando necesitas procesar varios resultados, como listar todos los productos.
+
+-- 
